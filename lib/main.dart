@@ -1,10 +1,10 @@
-import 'package:book/Page/spleshPage/spleshPage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:variant5/Page/homePage/homePage.dart';
+import 'package:variant5/Page/spleshPage/spleshPage.dart';
 
 void main() {
   runApp(
-    const MyApp(),
+    MyApp(),
   );
 }
 
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(useMaterial3: true,),
       home: SpleshPage(),
     );
   }

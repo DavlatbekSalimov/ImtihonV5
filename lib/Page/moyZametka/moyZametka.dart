@@ -1,6 +1,7 @@
-import 'package:book/widgets/MyBottomNav.dart';
-import 'package:book/widgets/bookContainer.dart';
+
 import 'package:flutter/material.dart';
+import 'package:variant5/widgets/MyBottomNav.dart';
+import 'package:variant5/widgets/bookContainer.dart';
 
 class MoyZametka extends StatefulWidget {
   const MoyZametka({super.key});

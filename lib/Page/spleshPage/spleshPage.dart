@@ -1,7 +1,7 @@
 import 'dart:async';  // Import dart:async for Future.delayed
 
-import 'package:book/Page/homePage/homePage.dart';
 import 'package:flutter/material.dart';
+import 'package:variant5/Page/homePage/homePage.dart';
 
 class SpleshPage extends StatefulWidget {
   const SpleshPage({Key? key}) : super(key: key);
@@ -16,7 +16,7 @@ class _SpleshPageState extends State<SpleshPage> {
     super.initState();
 
     // Use Future.delayed to introduce a delay before navigating to the next screen
-    Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(Duration(seconds: 2), () {
       Navigator.push(
         context,
         MaterialPageRoute(
